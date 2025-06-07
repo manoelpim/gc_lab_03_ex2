@@ -28,7 +28,7 @@ jobs:
           context: ./
           push: true
           dockerfile: ./Dockerfile
-          tags: moisesgc/webacademy:latest
+          tags: manoelpim/lab03:v1
 
   deploy:
     runs-on: ubuntu-latest
