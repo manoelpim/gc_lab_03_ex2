@@ -29,7 +29,6 @@ jobs:
           push: true
           dockerfile: ./Dockerfile
           tags: manoelpim/lab03:v1
-
   deploy:
     runs-on: ubuntu-latest
     steps:
